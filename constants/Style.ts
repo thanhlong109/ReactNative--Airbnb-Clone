@@ -41,5 +41,36 @@ export const defaultStyles = StyleSheet.create({
     paddingHorizontal: 20,
     borderTopColor: Colors.grey,
     borderTopWidth: StyleSheet.hairlineWidth
+  },
+  seperatorView: {
+    flexDirection: 'row',
+    gap: 10,
+    alignItems: 'center',
+    marginVertical: 30
+  },
+  seperatorText: {
+    fontFamily: 'mon-sb',
+    color: Colors.grey
+  },
+  seperatorLine: {
+    flex: 1,
+    borderBottomColor: Colors.grey,
+    borderBottomWidth: StyleSheet.hairlineWidth
+  },
+  btnOutline: {
+    backgroundColor: '#FFF',
+    borderWidth: 1,
+    borderColor: Colors.grey,
+    height: 50,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    paddingHorizontal: 10
+  },
+  btnOutlineText: {
+    color: '#000',
+    fontSize: 16,
+    fontFamily: 'mon-sb'
   }
 })
